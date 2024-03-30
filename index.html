@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroProject-II</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="main">
+            <span class="span1"style="font-family: Delius Unicase;">dappr</span>        
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Information">Information</a></li>
+            <li><a href="#More">More <img src="e:\Cuvette\Assignments\Assignment2\ddown.svg" alt="down"></a></li>
+            </li>
+        </ul>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button class="search-button">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M23.6372 25.6055L18.0713 20.0303C17.1962 20.79 16.1752 21.3817 15.0083 21.8054C13.8415 22.2291 12.6018 22.4409 11.2891 22.4409C8.13864 22.4409 5.46951 21.3451 3.28171 19.1537C1.0939 16.9622 0 14.3178 0 11.2204C0 8.12314 1.0939 5.47873 3.28171 3.28724C5.46951 1.09575 8.12405 0 11.2453 0C14.3374 0 16.9701 1.09575 19.1433 3.28724C21.3165 5.47873 22.4031 8.12314 22.4031 11.2204C22.4031 12.4769 22.1989 13.6895 21.7905 14.8583C21.3822 16.0271 20.7696 17.1229 19.9528 18.1456L25.6062 23.7208C25.8687 23.9546 26 24.2541 26 24.6194C26 24.9846 25.8541 25.3133 25.5624 25.6055C25.2999 25.8685 24.979 26 24.5998 26C24.2206 26 23.8997 25.8685 23.6372 25.6055ZM11.2453 19.8111C13.6082 19.8111 15.6209 18.971 17.2837 17.2909C18.9464 15.6107 19.7778 13.5873 19.7778 11.2204C19.7778 8.85364 18.9464 6.83016 17.2837 5.15001C15.6209 3.46987 13.6082 2.62979 11.2453 2.62979C8.85332 2.62979 6.81866 3.46987 5.14134 5.15001C3.46403 6.83016 2.62537 8.85364 2.62537 11.2204C2.62537 13.5873 3.46403 15.6107 5.14134 17.2909C6.81866 18.971 8.85332 19.8111 11.2453 19.8111Z"
+                        fill="#ADADAD" />
+                </svg>
+            </button>
+        </div>
+        <div class="hamburger">
+            <svg width="30" height="30" viewBox="0 0 67 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M3.72222 47.4433C2.66759 47.4433 1.78419 47.0704 1.072 46.3248C0.357334 45.5817 0 44.6599 0 43.5595C0 42.4591 0.357334 41.5373 1.072 40.7943C1.78419 40.0486 2.66759 39.6757 3.72222 39.6757H63.2778C64.3324 39.6757 65.2158 40.0486 65.928 40.7943C66.6427 41.5373 67 42.4591 67 43.5595C67 44.6599 66.6427 45.5817 65.928 46.3248C65.2158 47.0704 64.3324 47.4433 63.2778 47.4433H3.72222ZM3.72222 28.0244C2.66759 28.0244 1.78419 27.6515 1.072 26.9058C0.357334 26.1627 0 25.241 0 24.1406C0 23.0402 0.357334 22.1171 1.072 21.3714C1.78419 20.6283 2.66759 20.2568 3.72222 20.2568H63.2778C64.3324 20.2568 65.2158 20.6283 65.928 21.3714C66.6427 22.1171 67 23.0402 67 24.1406C67 25.241 66.6427 26.1627 65.928 26.9058C65.2158 27.6515 64.3324 28.0244 63.2778 28.0244H3.72222ZM3.72222 8.60543C2.66759 8.60543 1.78419 8.23388 1.072 7.49079C0.357334 6.7451 0 5.82205 0 4.72165C0 3.62124 0.357334 2.69819 1.072 1.95251C1.78419 1.20941 2.66759 0.83786 3.72222 0.83786H63.2778C64.3324 0.83786 65.2158 1.20941 65.928 1.95251C66.6427 2.69819 67 3.62124 67 4.72165C67 5.82205 66.6427 6.7451 65.928 7.49079C65.2158 8.23388 64.3324 8.60543 63.2778 8.60543H3.72222Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </div>
+    </nav>
+    <main>
+        <div class="section1">
+            <div><img src="e:\Cuvette\Assignments\Assignment2\image 4.png" class="img1" alt="" height="480px" width="406px">
+            </div>
+            <div class="para"><p class="line">It's not only writers who can benefit from this free online tool.
+                If you're a programmer who's working on a .....
+            </p>
+        </div>
+        <div><img src="e:\Cuvette\Assignments\Assignment2\Frame 2.svg" id="sm" alt="Frame"></div>
+        </div>
+        <div class="section2">
+            <div class="first">Total Question's 200,000</div>
+            <div class="second">Total Answer's 105,000</div>
+            <div class="third">Participated 10,000</div>
+            <div class="fourth">Total Passed 6,000</div>
+        </div>
+        <div class="section3">
+            <div class="one">
+                <div class="info">YOUR INFO</div>
+                <div class="book">BOOKMARKS</div>
+                <div class="sett">SETTING</div>
+            </div>
+
+            <div class="two">
+                <div class="lefts">
+                    <h2 class="heading" style="margin: 0px;">Your information</h2><br>
+                    <p class="span2"><b>Name : </b> Atul Singhal</p><br>
+                    <p class="span2"><b>Email : </b>atul@gmail.com</p><br>
+                    <p class="span2"><b>Phone : </b>+91 8131424888</p><br>
+                    <p class="span2"><b>Marks : </b>500.00</p><br>
+
+                    <div class="btn">
+                        <button class="button">Next <img id="btnarrow" src="e:\Cuvette\Assignments\Assignment2\Arrow 1.svg" alt=""></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <svg width="100" height="100" viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_4269_3)">
+                <circle cx="91" cy="80" r="60" fill="white" />
+            </g>
+            <path
+                d="M117.88 91.9405C119.28 88.2837 120.04 84.3688 120.04 80.0666C120.04 76.9691 119.6 74.0006 118.84 71.2473C116.24 71.8926 113.52 72.2367 110.68 72.2367C104.864 72.2435 99.1315 70.7461 93.9661 67.871C88.8007 64.9959 84.3537 60.8273 81 55.7166C77.4124 65.0529 70.6445 72.5629 62.08 76.711C61.92 77.7865 61.92 78.9481 61.92 80.0666C61.92 84.1739 62.6722 88.241 64.1336 92.0356C65.595 95.8303 67.737 99.2782 70.4373 102.182C75.8909 108.048 83.2875 111.343 91 111.343C95.2 111.343 99.24 110.354 102.88 108.59C105.16 113.279 106.2 115.602 106.12 115.602C99.56 117.968 94.48 119.13 91 119.13C81.32 119.13 72.08 115.043 65.28 107.686C61.144 103.252 58.0695 97.8043 56.32 91.8114H51V72.2367H55.36C56.681 65.3211 59.718 58.9191 64.1488 53.71C68.5795 48.5009 74.2388 44.679 80.5261 42.6499C86.8134 40.6208 93.4941 40.4602 99.8595 42.1851C106.225 43.91 112.037 47.456 116.68 52.4469C121.721 57.8472 125.159 64.7343 126.56 72.2367H131V91.8114H130.76L116.52 105.879L95.32 103.298V96.1136H114.64L117.88 91.9405ZM80.08 79.0771C81.28 79.0771 82.44 79.5934 83.28 80.5399C84.1242 81.4552 84.5979 82.6923 84.5979 83.9816C84.5979 85.2709 84.1242 86.5079 83.28 87.4233C82.44 88.3267 81.28 88.843 80.08 88.843C77.56 88.843 75.52 86.6919 75.52 83.9816C75.52 81.2712 77.56 79.0771 80.08 79.0771ZM101.88 79.0771C104.4 79.0771 106.4 81.2712 106.4 83.9816C106.4 86.6919 104.4 88.843 101.88 88.843C99.36 88.843 97.32 86.6919 97.32 83.9816C97.32 82.6808 97.8004 81.4334 98.6556 80.5136C99.5108 79.5938 100.671 79.0771 101.88 79.0771Z"
+                fill="black" />
+            <defs>
+                <filter id="filter0_d_4269_3" x="0" y="0" width="190" height="190" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dx="4" dy="15" />
+                    <feGaussianBlur stdDeviation="17.5" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4269_3" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4269_3" result="shape" />
+                </filter>
+            </defs>
+        </svg>
+        <!-- <img id="foot-img" src="./Images/Group 2.jpg" alt="HelpDesk"> -->
+    </footer>
+</body>
+</html>
